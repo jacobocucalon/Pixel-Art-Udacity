@@ -22,7 +22,7 @@ function makeGrid() {
     i = i + 1;
     let j = 0; //create variable for loop + reset it for every row
     while (j < vWidth.value) {
-      // insert columns
+      // insert cubicles
       const cubicles = lines.insertCell(j);
       cubicles.style.backgroundColor = "black";
       cubicles.style.borderColor="white";
